@@ -1,4 +1,5 @@
 const crypto = require('crypto');
+const { getUserByEmail } = require('../../database/tables/users');
 
 const getHashedPassword = (password) => {
     const sha256 = crypto.createHash('sha256');
@@ -12,11 +13,15 @@ const generateAuthToken = () => {
 
 const pushAuthToken = (email, token) => authTokens.push({email, token});
 
-const getUserByAuthToken = (token) => authTokens.find(pair => pair.token === token);
+const getUserByAuthToken = async (token) => {
+    const foundUser = authTokens.find(pair => pair.token === token);
+    if (!foundUser) {
+        return null;
+    }
+    return await getUserByEmail(foundUser.email);
+};
 
 const authTokens = [];
-
-setInterval(() => console.log(authTokens), 3000)
 
 module.exports = {
     getHashedPassword,
