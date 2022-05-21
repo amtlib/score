@@ -1,7 +1,7 @@
 const db = require("../database");
 
 const createUser = ({ email, hashedPassword}) => new Promise((res, rej) => {
-    db.all(`INSERT INTO users (password_hash, email) VALUES ("${hashedPassword}", "${email}")`, (err, rows) => {
+    db.all(`INSERT INTO users (password_hash, email, role) VALUES ("${hashedPassword}", "${email}", "regular")`, (err, rows) => {
         if (err) {
             rej(err);
             return;
@@ -44,7 +44,7 @@ const getUserByEmail = (userEmail) => {
             if (rows.length) {
                 res(rows[0]);
             } else {
-                res(false)
+                res(null)
             }
         })
     })
