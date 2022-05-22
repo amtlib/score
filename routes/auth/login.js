@@ -7,7 +7,6 @@ router.post('/', async (req, res) => {
     const { email, password } = req.body;
     const hashedPassword = getHashedPassword(password);
     const user = await getUserByEmail(email);
-    console.log("user!", user)
     if(!user) {
         res.send({ status: "error", code: 402, message: "user does not exist"});
         return;

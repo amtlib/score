@@ -18,7 +18,6 @@ const readDatabase = (
             if (err) {
                rej(err);
             }
-            console.log("read database", data)
             res(returnJson ? JSON.parse(data) : data);
         });
     })
