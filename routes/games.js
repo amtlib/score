@@ -1,6 +1,7 @@
 const express = require("express")
 const router = express.Router();
-const { getGames, getGame, createGame, deleteGame } = require("../database/tables/games");
+const { getGames, getGame, createGame, deleteGame, updateGame } = require("../database/helpers/games");
+const { isAdminMiddleware } = require("./auth/helpers");
 
 router.get('/', async (req, res) => {
     const games = await getGames();
@@ -12,16 +13,21 @@ router.get('/:gameId', async (req, res) => {
     res.send(game)
 });
 
-router.delete('/:gameId', async (req, res) => {
+router.delete('/:gameId', isAdminMiddleware, async (req, res) => {
     const game = await deleteGame(req.params.gameId);
     res.send(game)
 });
 
-router.post('/', async (req, res) => {
+router.put('/:gameId', isAdminMiddleware, async (req, res) => {
+    const override = req.body;
+    const gameId = req.params.gameId;
+    return await updateGame(gameId, override);
+});
+
+router.post('/', isAdminMiddleware, async (req, res) => {
     const { name, description, released, coverImageUrl } = req.body;
     const newGame = await createGame(name, released, description, coverImageUrl);
     res.send(newGame);
-})
-
+});
 
 module.exports = router;

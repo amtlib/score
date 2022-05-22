@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router();
-const { getGuestbookEntries, getGuestbookEntry, createGuestbookEntry, deleteGuestbookEntry } = require("../database/tables/guestbookEntries");
+const { getGuestbookEntries, getGuestbookEntry, createGuestbookEntry, deleteGuestbookEntry } = require("../database/helpers/guestbookEntries");
 
 router.get('/', async (req, res) => {
     const entries = await getGuestbookEntries();

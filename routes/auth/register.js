@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { getUserByEmail, createUser } = require("../../database/tables/users")
+const { getUserByEmail, createUser } = require("../../database/helpers/users")
 const { getHashedPassword } = require("./helpers");
 
 router.post('/', async (req, res) => {

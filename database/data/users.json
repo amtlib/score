@@ -1,0 +1,14 @@
+[
+    {
+        "id": "045c42ac-0bfa-480b-afe8-2f848aad3d9b",
+        "hashedPassword": "8OTC92xYkW7CWPJGhRvqCR0U1CR6L8PhhpRGGxgW4Ts=",
+        "email": "grzegorz.pach@protonmail.com",
+        "role": "admin"
+    },
+    {
+        "id": "2eb778d0-b470-4382-9de6-a043bb6f79f9",
+        "hashedPassword": "8OTC92xYkW7CWPJGhRvqCR0U1CR6L8PhhpRGGxgW4Ts=",
+        "email": "grzegorz.pach@protonmail.comm",
+        "role": "admin"
+    }
+]
