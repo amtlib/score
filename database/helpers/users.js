@@ -29,7 +29,9 @@ const updateUser = async (userId, override) => {
 
 const deleteUser = async (userId) => {
     const existingUsers = await readDatabase("users");
-    return writeDatabase("users", [...existingUsers.filter(user => user.id !== userId)])
+    const userToDelete = existingUsers.find(user => user.id === userId)
+    writeDatabase("users", [...existingUsers.filter(user => user.id !== userId)])
+    return userToDelete;
 }
 module.exports = {
     getUsers,

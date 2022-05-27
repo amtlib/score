@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router();
-const { getUsers, getUserById, deleteUser, createUser } = require("../database/helpers/users");
+const { getUsers, getUserById, deleteUser, createUser, updateUser } = require("../database/helpers/users");
 const { isAdminMiddleware } = require("./auth/helpers");
 
 router.get('/', isAdminMiddleware, async (req, res) => {
@@ -21,7 +21,7 @@ router.delete('/:userId', isAdminMiddleware, async (req, res) => {
 router.put('/:userId', isAdminMiddleware, async (req, res) => {
     const override = req.body;
     const userId = req.params.userId;
-    return await updateUser(userId, override);
+    res.send(updateUser(userId, override));
 });
 
 router.post('/', isAdminMiddleware, async (req, res) => {

@@ -11,12 +11,14 @@ const getGame = async (gameId) => {
 
 const deleteGame = async (gameId) => {
     const existingGames = await readDatabase("games");
-    return writeDatabase("games", existingGames.filter(game => game.id !== gameId));
+    const gameToDelete = existingGames.find(game => game.id === gameId)
+    writeDatabase("games", existingGames.filter(game => game.id !== gameId));
+    return gameToDelete
 }
 
-const createGame = async (name, released, description, coverImageUrl, genres = [], platforms = [], screenshots = []) => {
+const createGame = async (name, released, description, coverImageUrl, producer, genres = [], platforms = [], screenshots = []) => {
     const existingGames = await readDatabase("games");
-    const newGame = { id: getRandomId(), name, released, description, coverImageUrl, genres, platforms, screenshots };
+    const newGame = { id: getRandomId(), name, released, description, coverImageUrl, genres, platforms, screenshots, producer, favouriteBy: [] };
     await writeDatabase("games", [...existingGames, newGame]);
     return newGame;
 }
@@ -26,6 +28,7 @@ const updateGame = async (gameId, override) => {
     const gameToUpdate = existingGames.find(game => game.id === gameId);
     const updatedGame = {...gameToUpdate, ...override };
     await writeDatabase("games", [...existingGames.filter(game => game.id !== gameId), updatedGame]);
+    return updatedGame;
 }
 
 module.exports = {

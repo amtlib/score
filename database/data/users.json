@@ -1,14 +1,14 @@
 [
     {
-        "id": "045c42ac-0bfa-480b-afe8-2f848aad3d9b",
-        "hashedPassword": "8OTC92xYkW7CWPJGhRvqCR0U1CR6L8PhhpRGGxgW4Ts=",
-        "email": "grzegorz.pach@protonmail.com",
+        "id": "976a90a2-373e-4a42-902d-2c3d2cc8b31f",
+        "hashedPassword": "vdIpf5NVDwFFLL2DjCdvDdIvSYtGYTlPFSiriNbmPm8=",
+        "email": "kurwa@gmail.com",
         "role": "admin"
     },
     {
-        "id": "2eb778d0-b470-4382-9de6-a043bb6f79f9",
+        "id": "d600763c-9305-446b-abce-016d56a55f1a",
         "hashedPassword": "8OTC92xYkW7CWPJGhRvqCR0U1CR6L8PhhpRGGxgW4Ts=",
-        "email": "grzegorz.pach@protonmail.comm",
-        "role": "admin"
+        "email": "dmajka@gmail.com",
+        "role": "regular"
     }
 ]

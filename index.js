@@ -9,12 +9,13 @@ const usersRouter = require("./routes/users")
 
 const registerRouter = require("./routes/auth/register");
 const loginRouter = require("./routes/auth/login");
+const whoAmIRouter = require("./routes/auth/whoami");
 
 const app = express();
 const port = 3000;
 
-app.use(bodyParser.json());
 app.use(cookieParser());
+app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
@@ -26,6 +27,7 @@ app.use("/guestbook", guestbookRouter);
 
 app.use("/register", registerRouter);
 app.use("/login", loginRouter);
+app.use("/whoami", whoAmIRouter);
 
 app.use("/users", usersRouter)
 

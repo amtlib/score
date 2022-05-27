@@ -30,8 +30,8 @@ const isLoggedInMiddleware = (req, res, next) => {
 }
 
 const isAdminMiddleware = (req, res, next) => {
-    const {AuthToken} = req.cookies;
-    const user = authTokens.find(user => user.token === AuthToken);
+    const {authtoken} = req.headers
+    const user = authTokens.find(user => user.token === authtoken);
     if (!user) {
         res.send({status: "error", code: 401, message: "not authorized"});
         return;

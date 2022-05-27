@@ -1,12 +1,134 @@
 [
     {
+        "id": "47835d17-f87f-4f89-9397-a8c4a1f99bbd",
+        "name": "FIFA '22",
+        "released": "2021-09-27",
+        "description": "FIFA 22 is a football simulation video game published by Electronic Arts. It is the 29th installment in the FIFA series, and was released worldwide on 1 October 2021 for Microsoft Windows, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S.[1] Players who pre-ordered the ultimate edition, however, received 4 days of early access and were able to play the game from 27 September.",
+        "coverImageUrl": [
+            "https://s1.gaming-cdn.com/images/products/10059/616x353/fifa-22-pc-game-steam-cover.jpg"
+        ],
+        "genres": [
+            "symulacja",
+            "sportowe"
+        ],
+        "platforms": [
+            "ps4"
+        ],
+        "screenshots": [
+            "https://allegro.stati.pl/AllegroIMG/PRODUCENCI/EA/FIFA-22/Gen-4/a1-fifa-22.jpg",
+            "https://bi.im-g.pl/im/74/5a/1a/z27635572Q,FIFA-22.jpg",
+            "https://cdn.galleries.smcloud.net/t/galleries/gf-yidm-BpmE-5tHK_fifa-21-demo-kiedy-gra-do-sciagniecia-za-darmo-na-ps4-i-pc-664x442.png",
+            "https://s.yimg.com/os/creatr-uploaded-images/2021-07/d4040370-e261-11eb-bebb-092887a1a12a"
+        ],
+        "producer": "EA Sports",
+        "favouriteBy": []
+    },
+    {
+        "id": "51486d8e-27bb-43e0-bc35-d41862ff1946",
+        "name": "Minecraft",
+        "released": "2011-11-11",
+        "description": "Minecraft is a sandbox video game developed by Mojang Studios. The game was created by Markus \"Notch\" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before fully releasing in November 2011, with Notch stepping down and Jens \"Jeb\" Bergensten taking over development. Minecraft has since been ported to several other platforms and is the best-selling video game of all time, with over 238 million copies sold and nearly 140 million monthly active users as of 2021.\n\nIn Minecraft, players explore a blocky, procedurally generated 3D world with virtually infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures, earthworks and simple machines. Depending on game mode, players can fight computer-controlled mobs, as well as cooperate with or compete against other players in the same world. Game modes include a survival mode, in which players must acquire resources to build the world and maintain health, and a creative mode where players have unlimited resources and access to flight. Players can modify the game to create new gameplay mechanics, items, and assets.\n\nMinecraft received critical acclaim, winning several awards and later being cited as one of the greatest video games of all time. Social media, parodies, adaptations, merchandise, and the annual Minecon conventions played large roles in popularizing the game. The game has also been used in educational environments to teach chemistry, computer-aided design, and computer science. In 2014, Mojang and the Minecraft intellectual property were purchased by Microsoft for US$2.5 billion. A number of spin-off games have also been made, including Minecraft: Story Mode, Minecraft Dungeons, and Minecraft Earth.",
+        "coverImageUrl": [
+            "https://lenovogaming.pl/files/Gry/2021/Muzyka/10.jpg"
+        ],
+        "genres": [
+            "sandbox",
+            "survival"
+        ],
+        "platforms": [
+            "pc"
+        ],
+        "screenshots": [
+            "https://www.researchgate.net/profile/Chen-Tessler/publication/301648368/figure/fig2/AS:667842240315400@1536237406360/A-screenshot-from-Minecraft-a-popular-video-game-which-poses-a-challenging-lifelong.ppm",
+            "https://i0.wp.com/bigtechquestion.com/wp-content/uploads/2018/08/2017-02-08_11.03.51.png?fit=1920%2C1017&ssl=1",
+            "https://preview.redd.it/ebx3u9ub1yq51.png?auto=webp&s=19e99d66ab8992e913641e6f72810063790e201f"
+        ],
+        "producer": "Mojang/Microsoft",
+        "favouriteBy": []
+    },
+    {
         "id": "8ba22a16-1926-4525-b673-fdf1614f850b",
         "name": "Grand Theft Auto V",
-        "released": "09-10-2010",
-        "description": "to jest opis gta v",
-        "coverImageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
-        "genres": [],
-        "platforms": [],
-        "screenshots": []
+        "released": "2013-09-17",
+        "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and gunrunner Trevor Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles.",
+        "producer": "Rockstar Games North",
+        "coverImageUrl": [
+            "https://pliki.ppe.pl/storage/98f6213f6eef4f28d035/98f6213f6eef4f28d035@widescreen.jpg"
+        ],
+        "genres": [
+            "akcji",
+            "przygodowe"
+        ],
+        "platforms": [
+            "ps4",
+            "xbox-one",
+            "pc"
+        ],
+        "screenshots": [
+            "http://media.rockstargames.com/rockstargames/img/global/news/upload/13_gtavpc_03272015.jpg",
+            "https://www.igta5.com/images/official-screenshot-cant-touch-this.jpg",
+            "https://gamingbolt.com/wp-content/uploads/2012/11/np2xU.jpg",
+            "https://cdn.vox-cdn.com/thumbor/MzIMGcP_-ddYrzsObYo7r-bvfNg=/0x0:3840x2160/1200x800/filters:focal(1376x89:1990x703)/cdn.vox-cdn.com/uploads/chorus_image/image/70578783/Grand_Theft_Auto_V___3_4_2022___Image_2.0.jpg"
+        ],
+        "favouriteBy": [
+            "976a90a2-373e-4a42-902d-2c3d2cc8b31f",
+            "045c42ac-0bfa-480b-afe8-2f848aad3d9b"
+        ]
+    },
+    {
+        "id": "dfa4f235-063d-4330-877e-4fc7add19b06",
+        "name": "Assetto Corsa",
+        "released": "2014-12-19",
+        "description": "Assetto Corsa (Italian for \"Race Setup\") is a sim racing video game developed by the Italian video game developer Kunos Simulazioni. It is designed with an emphasis on a realistic racing experience with support for extensive customization and moddability. The game was first released through the Steam Early Access program on 8 November 2013,[1] and officially left Early Access as final release version on 19 December 2014.[2]\n\nPublisher 505 Games in partnership with Kunos Simulazioni announced on 3 June 2015 that they would bring the game to Xbox One and PlayStation 4 in 2016[3] and on 20 January 2016 revealed a release date of 22 April 2016.[4] On 24 February 2016 it was announced that the console release was delayed to 3 June 2016.[5] 505 Games and Kunos Simulazioni announced another delay and a new release date for the console versions on 6 May 2016, the game was released on consoles on 26 and 30 August 2016 in Europe and North America respectively.[6][7] A second title, Assetto Corsa Competizione was released on 29 May 2019.",
+        "coverImageUrl": [
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/244210/capsule_616x353.jpg?t=1651677274"
+        ],
+        "genres": [
+            "symulacja",
+            "wyścigowe",
+            "obsługa kierownicy"
+        ],
+        "platforms": [
+            "xbox-one"
+        ],
+        "screenshots": [
+            "https://steamcdn-a.akamaihd.net/steam/apps/805550/ss_03bc628820bdf1574e5d9782a3a20d4accc533a0.1920x1080.jpg?t=1544614596",
+            "https://external-preview.redd.it/Z6LqfJtaBhsbvpRSCnqworORb6gJwfcR_ct8xkulhNw.jpg?auto=webp&s=dd509ead8feff99fd1b380a8cad4f2b6fdbeab24",
+            "https://www.dsogaming.com/wp-content/uploads/2018/04/Assetto-Corsa-Competizione-6.jpg",
+            "https://www.xboxone-hq.com/images/games/screenshots/3530-assetto-corsa-competizione-screenshot-1-1584348018.jpg"
+        ],
+        "producer": "KUNOS",
+        "favouriteBy": [
+            "045c42ac-0bfa-480b-afe8-2f848aad3d9b"
+        ]
+    },
+    {
+        "id": "719379b6-df33-4529-bc22-edc1e5f5c156",
+        "name": "The Witcher 3: Wild Hunt",
+        "released": "2015-05-19",
+        "description": "The Witcher 3: Wild Hunt[a] is an action role-playing video game developed by Polish developer CD Projekt Red, and first published in 2015. It is the sequel to the 2011 game The Witcher 2: Assassins of Kings and the third game in The Witcher video game series, played in an open world with a third-person perspective. The games are based on The Witcher series of fantasy novels written by Andrzej Sapkowski.\n\nThe game takes place in a fictional fantasy world based on Slavic mythology. Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter, who is on the run from the otherworldly Wild Hunt. Players battle the game's many dangers with weapons and magic, interact with non-player characters, and complete quests to acquire experience points and gold, which are used to increase Geralt's abilities and purchase equipment. The game's story has three possible endings, determined by the player's choices at key points in the narrative.\n\nDevelopment began in 2011 and lasted for three and a half years. Central and Northern European cultures formed the basis of the game's world. REDengine 3 enabled the developer to create a complex story without compromising the game's open world. The music was primarily composed by Marcin Przybyłowicz and performed by the Brandenburg State Orchestra.\n\nThe Witcher 3: Wild Hunt was released for Microsoft Windows, PlayStation 4, and Xbox One in May 2015, with a Nintendo Switch version released in October 2019, and PlayStation 5 and Xbox Series X/S versions planned for release in Q42022. The game received critical acclaim, with praise for its gameplay, narrative, world design, combat, and visuals, although it received minor criticism due to technical issues. It received numerous game of the year awards and has been cited as one of the best video games ever made. Two expansions were also released to critical acclaim: Hearts of Stone and Blood and Wine. A Game of the Year edition was released in August 2016, with the base game, expansions and all downloadable content. The game shipped over 40 million copies, making it one of the best selling video games of all time.",
+        "coverImageUrl": [
+            "https://api.culture.pl/sites/default/files/styles/1920_auto/public/field/wideo/w311.jpg?itok=_rxjb9vP"
+        ],
+        "genres": [
+            "przygodowe",
+            "RPG"
+        ],
+        "platforms": [
+            "pc",
+            "xbox-one",
+            "ps4"
+        ],
+        "screenshots": [
+            "https://www.dsogaming.com/wp-content/uploads/2015/03/10845644_10152843064559331_6541388496103939919_o.jpg",
+            "https://www.mobygames.com/images/shots/l/783205-the-witcher-3-wild-hunt-windows-screenshot-new-to-the-series.png",
+            "https://cdn.wccftech.com/wp-content/uploads/2016/06/The-Witcher-3-Blood-and-Wine.jpg",
+            "https://sm.ign.com/t/ign_sr/gallery/t/the-witche/the-witcher-3-on-switch-screenshots_1wn3.1080.jpg",
+            "https://www.gamespot.com/a/uploads/original/1179/11799911/3550905-1.jpg"
+        ],
+        "producer": "CD Projekt RED",
+        "favouriteBy": [
+            "d600763c-9305-446b-abce-016d56a55f1a"
+        ]
     }
 ]
